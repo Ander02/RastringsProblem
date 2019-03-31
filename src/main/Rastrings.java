@@ -10,12 +10,7 @@ import java.util.List;
  */
 public class Rastrings {
 
-    public int numberOfBytes = 10;
     public int numberOfGenerations = 0;
-    public int startX = 0;
-    public int startY = 9;
-    public int endX = startX + numberOfBytes;
-    public int endY = endX + numberOfBytes;
 
     public List<int[]> population;
 
@@ -27,25 +22,21 @@ public class Rastrings {
         if (populationNumber < 0) {
             throw new InvalidDnDOperationException("The number of the population shold be greater than zero");
         }
-        
+
         for (int i = 0; i < populationNumber; i++) {
-            population.add(generateRandomChromosom(numberOfBytes));
+            population.add(generateRandomChromosom(Constants.numberOfBytes));
         }
     }
-    
-    public void start(int numberOfGenerations)
-    {
+
+    public void start(int numberOfGenerations) {
         //Select in the population
-        
+
         //Crossover
-        
         //Mutate
-        
         //UpdatePopulation
-        
         //Increment numberOfGenerations
     }
-    
+
     public static int[] generateRandomChromosom(int numberOfBytes) {
         Random random = new Random();
 
@@ -57,5 +48,5 @@ public class Rastrings {
         }
 
         return newChromosomes;
-    }    
+    }
 }
