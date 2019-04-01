@@ -12,4 +12,9 @@ public class Constants {
     public static final int endX = numberOfBytes - 1;
     public static final int startY = startX + numberOfBytes;
     public static final int endY = endX + numberOfBytes;
+    /*
+    ----X----- ----Y-----
+    ********** **********
+    
+    */   
 }

@@ -38,13 +38,13 @@ public class Rastrings {
     }
 
     public static int[] generateRandomChromosom(int numberOfBytes) {
-        Random random = new Random();
+        Random random = new Random(); //Classse global nessa classe?
 
         int[] newChromosomes = new int[2 * numberOfBytes];
 
         for (int i = 0; i < newChromosomes.length; i++) {
-            boolean bool = random.nextBoolean();
-            newChromosomes[i] = bool ? 1 : 0;
+            boolean randomBool = random.nextBoolean();
+            newChromosomes[i] = randomBool ? 1 : 0;
         }
 
         return newChromosomes;
