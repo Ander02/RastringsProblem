@@ -1,7 +1,6 @@
 package main;
 
 import java.awt.dnd.InvalidDnDOperationException;
-import java.util.Random;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -15,7 +14,7 @@ public class Rastrings {
     public List<int[]> population;
 
     public Rastrings() {
-        population = new LinkedList<>();
+        this.population = new LinkedList<>();
     }
 
     public Rastrings(int populationNumber) {
@@ -24,26 +23,30 @@ public class Rastrings {
         }
 
         for (int i = 0; i < populationNumber; i++) {
-            population.add(generateRandomChromosom(Constants.numberOfBytes));
+            this.population.add(generateRandomChromosom(Constants.numberOfBytes));
         }
     }
 
     public void start(int numberOfGenerations) {
-        //Select in the population
+        int currentGeneration = 0;
 
-        //Crossover
-        //Mutate
-        //UpdatePopulation
-        //Increment numberOfGenerations
+        while (currentGeneration < this.numberOfGenerations) {
+            //Select in the population based on fitness
+
+            //Crossover or clonning
+            //Mutate
+            //UpdatePopulation
+            //Increment numberOfGenerations
+            currentGeneration++;
+        }
     }
 
     public static int[] generateRandomChromosom(int numberOfBytes) {
-        Random random = new Random(); //Classse global nessa classe?
 
         int[] newChromosomes = new int[2 * numberOfBytes];
 
         for (int i = 0; i < newChromosomes.length; i++) {
-            boolean randomBool = random.nextBoolean();
+            boolean randomBool = Constants.randomSeed.nextBoolean();
             newChromosomes[i] = randomBool ? 1 : 0;
         }
 
