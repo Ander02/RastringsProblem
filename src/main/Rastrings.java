@@ -47,7 +47,7 @@ public class Rastrings {
 
         for (int i = 0; i < newChromosomes.length; i++) {
             boolean randomBool = Constants.randomSeed.nextBoolean();
-            newChromosomes[i] = randomBool ? 1 : 0;
+            newChromosomes[i] = randomBool ?  1 : 0;
         }
 
         return newChromosomes;

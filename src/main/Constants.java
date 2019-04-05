@@ -7,6 +7,7 @@ public abstract class Constants {
     /**
      * The random Seed
      */
+    //Obj. que gera numeros aleatórios
     public static final Random randomSeed = new Random();
 
     //Rates
