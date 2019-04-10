@@ -31,25 +31,77 @@ public class Rastrings {
         int currentGeneration = 0;
 
         while (currentGeneration < this.numberOfGenerations) {
-            //Select in the population based on fitness
+            for (int i = 0; i < population.size(); i++) {
 
-            //Crossover or clonning
-            //Mutate
-            //UpdatePopulation
-            //Increment numberOfGenerations
-            currentGeneration++;
+                //Select in the population based on fitness
+                List<int[]> selectedMembers = this.select();
+
+                if (this.canCross()) {
+                    crossover(selectedMembers);
+                } else {
+                    clone(selectedMembers);
+                }
+
+                //Mutate
+                for (int[] selectedMember : selectedMembers) {
+                    for (int j = 0; j < selectedMember.length; j++) {
+                        if (this.canMutade()) {
+                            selectedMember[j] = mutate(selectedMember[j]);
+                        }
+                    }
+                }
+
+                //UpdatePopulation
+                //Increment numberOfGenerations
+                currentGeneration++;
+            }
         }
     }
 
-    public static int[] generateRandomChromosom(int numberOfBytes) {
+    private static int[] generateRandomChromosom(int numberOfBytes) {
 
         int[] newChromosomes = new int[2 * numberOfBytes];
 
         for (int i = 0; i < newChromosomes.length; i++) {
             boolean randomBool = Constants.randomSeed.nextBoolean();
-            newChromosomes[i] = randomBool ?  1 : 0;
+            newChromosomes[i] = randomBool ? 1 : 0;
         }
 
         return newChromosomes;
     }
+
+    public List<int[]> select() {
+        return null;
+    }
+
+    public void crossover(List<int[]> selectedChromosomes) {
+    }
+
+    public void clone(List<int[]> selectedChromosomes) {
+    }
+
+    public static double fitness(int[] chromosom) {
+        //TODO: Calculate x and y
+        double x = 0;
+        double y = 0;
+
+        return Math.abs(20 + Math.pow(x, 2) + Math.pow(y, 2) - 10 * (Math.cos(Math.PI * x) + Math.cos(Math.PI * y)));
+    }
+
+    public boolean canMutade() {
+        return canOccour(Constants.mutationRate);
+    }
+
+    public boolean canCross() {
+        return canOccour(Constants.crossoverRate);
+    }
+
+    public int mutate(int genToMutate) {
+        return genToMutate == 1 ? 0 : 1;
+    }
+
+    private static boolean canOccour(double probability) {
+        return Constants.randomSeed.nextDouble() <= probability;
+    }
+
 }
