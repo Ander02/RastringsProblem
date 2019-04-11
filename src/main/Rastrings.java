@@ -1,6 +1,6 @@
 package main;
 
-import java.awt.dnd.InvalidDnDOperationException;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,8 +9,6 @@ import java.util.List;
  */
 public class Rastrings {
 
-    public int numberOfGenerations = 0;
-
     public List<int[]> population;
 
     public Rastrings() {
@@ -18,19 +16,21 @@ public class Rastrings {
     }
 
     public Rastrings(int populationNumber) {
+        this();
         if (populationNumber < 0) {
-            throw new InvalidDnDOperationException("The number of the population shold be greater than zero");
+            throw new RuntimeException("Population number should be greather or equal than 0");
         }
 
         for (int i = 0; i < populationNumber; i++) {
             this.population.add(generateRandomChromosom(Constants.numberOfBytes));
         }
+        printList(this.population, "Initial population");
     }
 
     public void start(int numberOfGenerations) {
         int currentGeneration = 0;
 
-        while (currentGeneration < this.numberOfGenerations) {
+        while (currentGeneration < numberOfGenerations) {
             for (int i = 0; i < population.size(); i++) {
 
                 //Select in the population based on fitness
@@ -42,7 +42,7 @@ public class Rastrings {
                     clone(selectedMembers);
                 }
 
-                //Mutate
+                //Mutate - Foreach chromoson, verify if can mutate, if true, change the value
                 for (int[] selectedMember : selectedMembers) {
                     for (int j = 0; j < selectedMember.length; j++) {
                         if (this.canMutade()) {
@@ -54,6 +54,7 @@ public class Rastrings {
                 //UpdatePopulation
                 //Increment numberOfGenerations
                 currentGeneration++;
+                printList(selectedMembers, "Selected Members");
             }
         }
     }
@@ -71,7 +72,7 @@ public class Rastrings {
     }
 
     public List<int[]> select() {
-        return null;
+        return this.population.subList(0, 2);
     }
 
     public void crossover(List<int[]> selectedChromosomes) {
@@ -104,4 +105,10 @@ public class Rastrings {
         return Constants.randomSeed.nextDouble() <= probability;
     }
 
+    private void printList(List<int[]> list, String label) {
+        list.forEach((int[] array) -> {
+            System.out.println(label + "\t" + Arrays.toString(array));
+        });
+        System.out.println();
+    }
 }
