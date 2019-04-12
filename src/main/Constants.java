@@ -8,17 +8,18 @@ public abstract class Constants {
      * The random Seed
      */
     //Obj. que gera numeros aleatórios
-    public static final Random randomSeed = new Random();
+    public static final Random randomSeed = new Random(1);
 
     //Rates
     
-    public static final double mutationRate = 0.0007;
+    public static final double mutationRate = 0.0009;
     public static final double crossoverRate = 0.8;
 
     /**
      * The decimal value constant
      */
     public static final double decimalJump = 0.00978;
+    public static final int tournamentLength = 10;
 
     //Indexes
     

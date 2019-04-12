@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Rastrings rastrings = new Rastrings(100);
+        Rastrings rastrings = new Rastrings(1000);
         
-        rastrings.start(50);
+        rastrings.start(100);
     }
 }
