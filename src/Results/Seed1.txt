@@ -606,3 +606,1064 @@ PopulationSize: 250
 TournamentLength: 10
 
 BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 0.46523757139684513
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 40
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 50	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.78847019043221
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 50
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 37	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 4.706526383686914
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 5.0E-4
+PopulationSize: 50
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 44	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.24335328106033
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 60
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 10	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 2.4798251646688794
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 70
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 22	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.011041449870998
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 70
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 16	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.815282951845798
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 70
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.392074575147467
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 8.000000000000001E-4
+PopulationSize: 70
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 8	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.31971621327798
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 80
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 11	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.755807524060766
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 6.000000000000001E-4
+PopulationSize: 80
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 9	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.174927148778187
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 90
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 32	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.76280019118431
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 90
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.943490647808402
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 6.000000000000001E-4
+PopulationSize: 90
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 48	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.712337922201229
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 90
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 34	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 11.070277478356543
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 100
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.825444420046164
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 110
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.729319677276023
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 110
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.960481777637224
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 110
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 26	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.557894125717483
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 5.0E-4
+PopulationSize: 110
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 34	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.222908119326688
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 11.717510029874594
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.475977824342704
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 39	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.598205532839406
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 12	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.982902534578036
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 9	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.132736110815044
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 120
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 28	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.345045704341489
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 130
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 27	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.235193067652919
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 130
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.836408629630279
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 7.000000000000001E-4
+PopulationSize: 130
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 23	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.18484532935463
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 6.000000000000001E-4
+PopulationSize: 130
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.970869617802731
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 130
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 6	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.648070891669795
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 6.000000000000001E-4
+PopulationSize: 140
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.857160499268404
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 140
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.609005980744888
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 9.000000000000002E-4
+PopulationSize: 140
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 10	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.45868566172586
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 140
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.183155091905269
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.52621397097841
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 6	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 11.234438020399738
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 23	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.319672561454292
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 6.000000000000001E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.182301029630692
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 9.000000000000002E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.410295125381872
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 8.000000000000001E-4
+PopulationSize: 150
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 7	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.052271438602696
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 160
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 27	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.989049964675657
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 160
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 10	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.031241862259002
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 160
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 8	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.4767564625157386
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 6.000000000000001E-4
+PopulationSize: 170
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 15	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.516587433649522
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 9.000000000000002E-4
+PopulationSize: 170
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 2	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 13.02208836298306
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 5.0E-4
+PopulationSize: 170
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.937919452127012
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 170
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 11	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.013219346727073
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 180
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 26	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.609663007549959
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 6.000000000000001E-4
+PopulationSize: 180
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 16	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.224053458613763
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 190
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.087347933939748
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 190
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.148711502661266
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 6.000000000000001E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.50551781326049
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.289630141361329
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 45	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.136341382304751
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 9.000000000000002E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 12	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.440276334037002
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 29	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.794385933868421
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 200
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 3	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.858059011459865
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 2	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.518294836904785
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 27	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.674947188685566
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.405112316407642
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 26	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.840500289996042
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 7.000000000000001E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.697006402585142
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 5.0E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.239393974839144
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.109890765884474
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 12	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.677446208886315
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 5.0E-4
+PopulationSize: 210
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.482604918676858
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 220
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 16	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.792102845220887
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 220
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 11	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.417915393790448
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 220
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.81078644716192
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 6.000000000000001E-4
+PopulationSize: 220
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 16	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.810273689222496
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 220
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 25	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.546301733057565
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 9	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.599756380943254
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.50315688281782
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 29	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.134596824538914
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 15	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.693843420730656
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 5.0E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 11	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.549475271412342
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 9.000000000000002E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.083607080555518
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 10.797050095340506
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 7.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.860653407783241
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 230
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 38	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.892337091537694
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 9	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.922375827423383
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 19	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.8624677100916385
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.872075547209597
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 19	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.298978889975315
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 7.000000000000001E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 28	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.903611722086673
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 9.000000000000002E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.66425151006575
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 240
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 18	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.244754005520109
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 9.000000000000002E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 10	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.646100749720329
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 31	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.424112459568164
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 9.000000000000002E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.288918207894174
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 7.000000000000001E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 11	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.008376796971013
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 5.0E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 19	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.348182273218743
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 5.0E-4
+PopulationSize: 250
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 19	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.322441918513352
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 24	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.7901788166324675
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 9.000000000000002E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.503296055777375
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 7.000000000000001E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 33	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.945143428303111
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 5.0E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 16	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.4221252357076555
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 9.000000000000002E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 13	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 9.665345618135671
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 260
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.129606423468982
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 10	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.511041641444036
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 8	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 12.655098320292362
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 11.26736660533732
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 8.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 11.332507957105138
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 7.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 24	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.703612011962347
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 6.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 24	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.924438803921234
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 14	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 8.6791662650021
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 5.0E-4
+PopulationSize: 270
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 21	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 6.577433861445733
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 280
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 28	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.6126392379748395
+===========================================
+HyperParameters:
+CrossoverRate: 0.9999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 280
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 40	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 7.837063930653596
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 5.0E-4
+PopulationSize: 280
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 9	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.275635939133959
+===========================================
+HyperParameters:
+CrossoverRate: 0.7
+MutationRate: 8.000000000000001E-4
+PopulationSize: 280
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 20	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 5.200515133249408
+===========================================
+HyperParameters:
+CrossoverRate: 0.8999999999999999
+MutationRate: 7.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 48	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 0.424753715283624
+===========================================
+HyperParameters:
+CrossoverRate: 0.7999999999999999
+MutationRate: 8.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 17	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 2.939377821417524
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 8.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 28	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 0.24538617859458484
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 7.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 36	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 1.6670563363189663
+===========================================
+HyperParameters:
+CrossoverRate: 0.6
+MutationRate: 6.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 8	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 2.7652509047115474
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 8.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 30	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 1.8968505842140797
+===========================================
+HyperParameters:
+CrossoverRate: 0.5
+MutationRate: 6.000000000000001E-4
+PopulationSize: 290
+TournamentLength: 10
+GetBestInTournamentRate: 0.8
+
+BEST RESULT: Generation: 27	 BestFitness: 5.897135280861221E-4	 AvarageFitness: 1.8016989051248562

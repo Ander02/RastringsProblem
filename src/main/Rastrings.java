@@ -62,9 +62,9 @@ public class Rastrings {
             currentGeneration++;
             result.add(this.getGenerationResult(currentGeneration));
             this.population.sort(new FitnessComparator());
-        }        
+        }
         //Utility.printList(population, "Final Population");
-        
+
         result.sort(new GenerationComparator());
         return result;
     }
@@ -107,7 +107,12 @@ public class Rastrings {
         }
         list.sort(new FitnessComparator());
 
-        int[] selected = list.get(0);
+        int[] selected;
+        if (getTheBest()) {
+            selected = list.get(0);
+        } else {
+            selected = list.get(list.size() - 1);
+        }
         return Arrays.copyOfRange(selected, 0, selected.length);
     }
 
@@ -144,6 +149,10 @@ public class Rastrings {
         return genToMutate == 1 ? 0 : 1;
     }
 
+    public boolean getTheBest() {
+        return canOccour(hyperParameters.getTheBest);
+    }
+
     public boolean canMutade() {
         return canOccour(hyperParameters.mutationRate);
     }
@@ -161,9 +170,17 @@ public class Rastrings {
         double secondFitness = fitness(selectedMemberTwo);
 
         if (firtsFitness >= secondFitness) {
-            return Arrays.copyOfRange(selectedMemberOne, 0, selectedMemberOne.length);
+            if (getTheBest()) {
+                return Arrays.copyOfRange(selectedMemberOne, 0, selectedMemberOne.length);
+            } else {
+                return Arrays.copyOfRange(selectedMemberTwo, 0, selectedMemberOne.length);
+            }
         } else {
-            return Arrays.copyOfRange(selectedMemberTwo, 0, selectedMemberTwo.length);
+            if (getTheBest()) {
+                return Arrays.copyOfRange(selectedMemberTwo, 0, selectedMemberTwo.length);
+            } else {
+                return Arrays.copyOfRange(selectedMemberOne, 0, selectedMemberOne.length);
+            }
         }
     }
 
@@ -188,8 +205,8 @@ public class Rastrings {
 
         @Override
         public int compare(GenerationResult first, GenerationResult second) {
-            double fitnessOne = first.getBestFitness();
-            double fitnessTwo = second.getBestFitness();
+            double fitnessOne = first.avarageFitness;
+            double fitnessTwo = second.avarageFitness;
             double diff = fitnessOne - fitnessTwo;
             if (diff > 0) {
                 return 1;

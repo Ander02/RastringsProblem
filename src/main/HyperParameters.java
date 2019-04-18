@@ -4,24 +4,27 @@ import java.util.Random;
 
 public class HyperParameters implements Comparable<HyperParameters> {
 
-    public Random randomSeed = new Random(1);
+    public Random randomSeed;
 
     //Rates
     public double crossoverRate = 0.8;
-    public double mutationRate = 0.0009;
+    public double mutationRate = 0.007;
+    public double getTheBest = 0.8;
 
     public int tournamentLength = 10;
-    public int populationSize = 100;
+    public int populationSize = 500;
 
     public HyperParameters() {
+        this.randomSeed = new Random(1);
     }
 
-    public HyperParameters(double crossoverRate, double mutationRate, int populationSize, int tournamentLength, Random randomSeed) {
+    public HyperParameters(double crossoverRate, double mutationRate, int populationSize, int tournamentLength, double getBestInTournamentRate, long seed) {
         this.crossoverRate = crossoverRate;
         this.mutationRate = mutationRate;
         this.tournamentLength = tournamentLength;
         this.populationSize = populationSize;
-        this.randomSeed = randomSeed;
+        this.randomSeed = new Random(seed);
+        this.getTheBest = getBestInTournamentRate;
     }
 
     @Override
@@ -29,7 +32,8 @@ public class HyperParameters implements Comparable<HyperParameters> {
         return "CrossoverRate: " + crossoverRate
                 + "\nMutationRate: " + mutationRate
                 + "\nPopulationSize: " + populationSize
-                + "\nTournamentLength: " + tournamentLength;
+                + "\nTournamentLength: " + tournamentLength
+                + "\nGetBestInTournamentRate: " + getTheBest;
     }
 
     @Override
