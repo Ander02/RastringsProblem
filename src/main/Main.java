@@ -20,7 +20,7 @@ public class Main {
         hyperParameters.randomSeed = new Random(seed);
         Rastrings rastrings = new Rastrings(hyperParameters);
 
-        List<GenerationResult> results = rastrings.start(1000);
+        List<GenerationResult> results = rastrings.start(50);
 
         results.forEach((GenerationResult result) -> {
             System.out.println(result.toString());

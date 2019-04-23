@@ -9,7 +9,7 @@ public class HyperParameters implements Comparable<HyperParameters> {
     //Rates
     public double crossoverRate = 0.8;
     public double mutationRate = 0.007;
-    public double getTheBest = 0.8;
+    public double getTheBest = 0.9;
 
     public int tournamentLength = 10;
     public int populationSize = 500;
@@ -38,19 +38,20 @@ public class HyperParameters implements Comparable<HyperParameters> {
 
     @Override
     public int compareTo(HyperParameters otherHyperParameter) {
-        double crossover = this.crossoverRate - otherHyperParameter.crossoverRate;
-        double mutation = this.mutationRate - otherHyperParameter.mutationRate;
-        int tournament = this.tournamentLength - otherHyperParameter.tournamentLength;
-        int population = this.populationSize - otherHyperParameter.populationSize;
+        String thisIdentifier = new StringBuilder()
+                .append(this.crossoverRate)
+                .append(this.mutationRate)
+                .append(this.tournamentLength)
+                .append(this.populationSize)
+                .toString();
 
-        double fullResult = population - tournament - crossover - mutation;
+        String otherIdentifier = new StringBuilder()
+                .append(otherHyperParameter.crossoverRate)
+                .append(otherHyperParameter.mutationRate)
+                .append(otherHyperParameter.tournamentLength)
+                .append(otherHyperParameter.populationSize)
+                .toString();
 
-        if (fullResult > 0) {
-            return 1;
-        } else if (fullResult < 0) {
-            return -1;
-        } else {
-            return 0;
-        }
+        return thisIdentifier.compareTo(otherIdentifier);
     }
 }

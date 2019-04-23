@@ -23,9 +23,9 @@ public class Rastrings {
         this.hyperParameters = hyperParameters;
 
         for (int i = 0; i < hyperParameters.populationSize; i++) {
-            this.population.add(generateRandomChromosom(Constants.numberOfBytes));
+            this.population.add(PopulationGenerator.generateRandomChromosom(Constants.numberOfBytes));
         }
-        //Utility.printList(this.population, "Initial population");        
+        //Utility.printList(this.population, "Initial population");
     }
 
     public List<GenerationResult> start(int numberOfGenerations) {
@@ -41,6 +41,7 @@ public class Rastrings {
                 int[] selectedMemberOne = this.tournamentSelection(hyperParameters.tournamentLength);
                 int[] selectedMemberTwo = this.tournamentSelection(hyperParameters.tournamentLength);
 
+                //Cross or clone selected members
                 int[] son;
                 if (this.canCross()) {
                     son = crossover(selectedMemberOne, selectedMemberTwo);
@@ -61,42 +62,27 @@ public class Rastrings {
             //Utility.printList(this.population, "Population " + currentGeneration);
             currentGeneration++;
             result.add(this.getGenerationResult(currentGeneration));
-            this.population.sort(new FitnessComparator());
+            //this.population.sort(new FitnessComparator());
         }
         //Utility.printList(population, "Final Population");
 
-        result.sort(new GenerationComparator());
+        result.sort(new BestFitnessGenerationComparator());
         return result;
     }
 
     private GenerationResult getGenerationResult(int generation) {
-
-        this.population.sort(new FitnessComparator());
+        List<int[]> auxList = new LinkedList<>();
+        this.population.forEach((chromoson) -> {
+            auxList.add(Arrays.copyOf(chromoson, chromoson.length));
+        });
 
         double sum = 0;
-        for (int[] chromoson : population) {
+        for (int[] chromoson : auxList) {
             sum += fitness(chromoson);
         }
 
-        return new GenerationResult(generation, this.population.get(0), sum / this.population.size());
-    }
-
-    private int[] generateRandomChromosom(int numberOfBytes) {
-
-        int[] newChromosomes = new int[2 * numberOfBytes];
-
-        for (int i = 0; i < newChromosomes.length; i++) {
-            boolean randomBool = hyperParameters.randomSeed.nextBoolean();
-            newChromosomes[i] = randomBool ? 1 : 0;
-        }
-
-        return newChromosomes;
-    }
-
-    public int[] rankSelection() {
-        this.population.sort(new FitnessComparator());
-        //TODO:
-        return this.population.get(0);
+        auxList.sort(new FitnessComparator());
+        return new GenerationResult(generation, auxList.get(0), sum / auxList.size());
     }
 
     public int[] tournamentSelection(int tournamentLength) {
@@ -201,12 +187,29 @@ public class Rastrings {
         }
     }
 
-    private static class GenerationComparator implements Comparator<GenerationResult> {
+    private static class AverageFitnessGenerationComparator implements Comparator<GenerationResult> {
 
         @Override
         public int compare(GenerationResult first, GenerationResult second) {
-            double fitnessOne = first.avarageFitness;
-            double fitnessTwo = second.avarageFitness;
+            double fitnessOne = first.averageFitness;
+            double fitnessTwo = second.averageFitness;
+            double diff = fitnessOne - fitnessTwo;
+            if (diff > 0) {
+                return 1;
+            } else if (diff < 0) {
+                return - 1;
+            } else {
+                return 0;
+            }
+        }
+    }
+
+    private static class BestFitnessGenerationComparator implements Comparator<GenerationResult> {
+
+        @Override
+        public int compare(GenerationResult first, GenerationResult second) {
+            double fitnessOne = first.getBestFitness();
+            double fitnessTwo = second.getBestFitness();
             double diff = fitnessOne - fitnessTwo;
             if (diff > 0) {
                 return 1;

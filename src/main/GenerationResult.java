@@ -6,12 +6,12 @@ public class GenerationResult {
     
     public int generation;
     public int[] bestChromoson;
-    public double avarageFitness; 
+    public double averageFitness; 
 
     public GenerationResult(int generation, int[] bestChromoson, double avarageFitness) {
         this.generation = generation;
         this.bestChromoson = Arrays.copyOfRange(bestChromoson, 0, bestChromoson.length);
-        this.avarageFitness = avarageFitness;
+        this.averageFitness = avarageFitness;
     }
         
     public double getBestFitness()
@@ -21,7 +21,7 @@ public class GenerationResult {
 
     @Override
     public String toString() {
-        return "Generation: " + this.generation + "\t BestFitness: " + this.getBestFitness() + "\t AvarageFitness: " + this.avarageFitness;
+        return "Generation: " + this.generation + "\t BestFitness: " + this.getBestFitness() + "\t AvarageFitness: " + this.averageFitness;
     }
     
     
